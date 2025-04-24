@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gmbr4</title>
+    <style>
+        .container{
+            width: 100%;
+            max-width: 1200px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .ctr{
+            background: #ffffff;
+            padding: 30px;
+            box-shadow: 0 1px 2px rgb(0,0,0,1);
+            border-radius: 10px;
+        }
+        .ctr1 img{
+            width: 100px;
+            height:100px ;
+            border-radius: 50%;
+            border: 2px solid green;
+           
+        }
+        .ctr2{
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .ctr2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .ctr2 img{
+            width: 20px;
+            height: 20px;
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+        .perent{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 10px;
+        }
+        .ctr3{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .ctr3 img{
+            width: 20px;
+            height: 20px;
+            margin-top: -4px;
+            margin-left: 5px;
+            margin-right: 3px;
+        }
+        .ctr3 span{
+            font-size: 11px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        .ctr4{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+        }
+        .ctr4 img{
+            width: 15px;
+            height: 15px;
+            margin-top: -4px;
+            margin-left: 5px;
+            margin-right: 3px;
+        }
+        .ctr4 span{
+            font-size: 11px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        .ctr5{
+            display: flex;
+            flex-direction: row;
+            justify-content:center;
+        }
+        .ctr5 img{
+            width: 15px;
+            height: 15px;
+            margin-top: -3px;
+            margin-left: 5px;
+            margin-right: 4px;
+        }
+        .ctr5 span{
+            font-size: 11px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+        }
+        .perent1{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            gap: 25px;
+            margin-top: 50px;
+        }
+        .ctr6{
+            display: flex;
+            flex-direction: row;
+        }
+        .ctr6 img{
+            width: 15px;
+            height: 9px;
+            margin-top: 2px;
+            margin-left: 5px;
+            color: gray;
+        }
+        .ctr6 span{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .ctr7{
+            display: flex;
+            flex-direction: row;
+        }
+        .ctr7 img{
+            width: 15px;
+            height: 9px;
+            margin-top: 2px;
+            margin-left: 5px;
+            color: gray;
+        }
+        .ctr7 span{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .ctr8{
+            display: flex;
+            flex-direction: row;
+            font-family: Arial, Helvetica, sans-serif;
+            color:blue;
+            text-decoration: 2px underline;
+        }
+        .ctr9{
+            display: flex;
+            flex-direction: row;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .ctr10{
+            display: flex;
+            flex-direction: row;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .ctr11{
+            display: flex;
+            flex-direction: row;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .ctr12{
+            display: flex;
+            flex-direction: row;
+        }
+        .ctr12 img{
+            width: 15px;
+            height: 9px;
+            margin-top: 2px;
+            margin-left: 5px;
+            color: gray;
+        }
+        .ctr12 span{
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        .perent2{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-top: -30px;
+            gap: 10px;
+        }
+        .ctr13{
+           display: flex;
+           flex-direction: row;
+           background-color:rgb(0, 55, 255);
+           border-radius: 5px;
+           width: 80px;
+           height: 30px;
+           margin-top: 8px;
+        }
+        .ctr13 img{
+            width: 10px;
+            height: 10px;
+            margin-top: 10px;
+            margin-left: 8px;
+        }
+        .ctr13 span{
+            font-size: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+            color: #ffffff;
+            margin-left: 5px;
+
+        }
+        .ctr14{
+            display: flex;
+            flex-direction: row;
+            border: 1px solid gray;
+            border-radius: 5px;
+            width: 40px;
+            height: 30px;
+            margin-top: 8px;
+        }
+        .ctr14 img{
+            width: 20px;
+            height: 20px;
+            margin-top: 6px;
+            margin-left: 8px;
+        }
+        .ctr15{
+            display: flex;
+            flex-direction: row;
+            border: 1px solid gray;
+            border-radius: 5px;
+            width: 40px;
+            height: 30px;
+            margin-top: 8px;
+        }
+        .ctr15 img{
+            width: 20px;
+            height: 20px;
+            margin-top: 4px;
+            margin-left: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="ctr">
+            <div class="ctr1">
+                <img src="avtrwomen.png" alt="">
+            </div>
+            <div class="ctr2">
+                <h1>Jenny Klabber</h1>
+                <img src="tick-decagram.png" alt="">
+            </div>
+            <div class="perent">
+            <div class="ctr3">
+                <img src="gambar n.png" alt="">
+                <span >KeenThemes</span>
+            </div>
+            <div class="ctr4">
+                <img src="lokasi.png" alt="">
+                <span>SF, Bay Area</span>
+            </div>
+            <div class="ctr5">
+                <img src="gmaill.png" alt="">
+                <span>jenny@kteam.com</span>
+            </div>
+            </div>
+            <div class="perent1">
+                <div class="ctr6">
+                    <span>Profiles</span>
+                    <img src="fa6-solid_v.png" alt="">
+                </div>
+                <div class="ctr7">
+                    <span>Project</span>
+                    <img src="fa6-solid_v.png" alt="">
+                </div>
+                <div class="ctr8">
+                    <span>Works</span>
+                </div>
+                <div class="ctr9">
+                    <span>Teams</span>
+                </div>
+                <div class="ctr10">
+                    <span>Network</span>
+                </div>
+                <div class="ctr11">
+                    <span>Activity</span>
+                </div>
+                <div class="ctr12">
+                    <span>More</span>
+                    <img src="fa6-solid_v.png" alt="">
+                </div>
+            </div>
+            <div class="perent2">
+                <div class="ctr13">
+                    <img src="person.png" alt="">
+                    <span>Connect</span>
+               </div>
+               <div class="ctr14">
+                <img src="comment (1).png" alt="">
+               </div>
+               <div class="ctr15">
+                <img src="pepicons-pencil_dots-y.png" alt="">
+               </div>
+            </div>
+    </div>
+</body>
+</html>
